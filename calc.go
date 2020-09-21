@@ -52,8 +52,7 @@ func ReadEntry() string {
 	return scanner.Text()
 }
 
-func main() {
-
+func ShowMenu() {
 	for {
 		fmt.Println("")
 		fmt.Println("Enter Basic Math Symbol :")
@@ -84,4 +83,9 @@ func main() {
 			fmt.Println("Invalid operation")
 		}
 	}
+}
+
+func main() {
+
+	ShowMenu()
 }
